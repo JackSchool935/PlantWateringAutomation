@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('home_func') }}">Home</a></li>
+            <li><a href="{{ url_for('live_func') }}">Live Charts</a></li>
+            <li><a href="{{ url_for('historical_func') }}">Historical Charts</a></li>
+            <li><a href="{{ url_for('pump_func') }}">Pump Data</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <script>
+        function togglePump(state) {
+            $.ajax({
+                url: '/control-pump',
+                type: 'POST',
+                data: { state: state },
+                success: function(response) {
+                    alert(response.message);
+                },
+                error: function(error) {
+                    alert("Error: " + error.responseJSON.message);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

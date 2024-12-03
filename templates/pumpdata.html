@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Plant Water Data</h1>
+
+<h2>Displaying the times your plant was watered:</h2>
+
+<ul>
+    {% for line in pump_data %}
+        <li>{{ line }}</li>
+    {% endfor %}
+</ul>
+
+<a href="/static">Home</a> | <a href="/live">Live Data</a>
+{% endblock %}

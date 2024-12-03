@@ -1,0 +1,1197 @@
+[
+    {
+        "humidity": 23.5,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:20:33"
+    },
+    {
+        "humidity": 23.5,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:20:44"
+    },
+    {
+        "humidity": 23.5,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:20:54"
+    },
+    {
+        "humidity": 23.5,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:21:04"
+    },
+    {
+        "humidity": 23.5,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:21:14"
+    },
+    {
+        "humidity": 23.6,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:21:25"
+    },
+    {
+        "humidity": 23.5,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:21:35"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:21:45"
+    },
+    {
+        "humidity": 23.4,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:21:55"
+    },
+    {
+        "humidity": 23.5,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:22:06"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:22:16"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:22:26"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:22:36"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:22:47"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:22:57"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:23:07"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:23:17"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:23:28"
+    },
+    {
+        "humidity": 23.5,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:23:38"
+    },
+    {
+        "humidity": 23.5,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:23:48"
+    },
+    {
+        "humidity": 23.5,
+        "temperature": 22.1,
+        "timestamp": "2024-12-03 17:23:59"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:24:09"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:24:19"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:24:29"
+    },
+    {
+        "humidity": 23.0,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:24:50"
+    },
+    {
+        "humidity": 23.0,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:25:00"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:25:10"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:25:21"
+    },
+    {
+        "humidity": 23.4,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:25:31"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:25:41"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:25:51"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:26:02"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:26:12"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:26:22"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:26:32"
+    },
+    {
+        "humidity": 23.4,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:26:43"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:26:53"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.2,
+        "timestamp": "2024-12-03 17:27:03"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:27:13"
+    },
+    {
+        "humidity": 23.4,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:27:24"
+    },
+    {
+        "humidity": 23.4,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:27:34"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:27:44"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:27:54"
+    },
+    {
+        "humidity": 23.0,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:28:05"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:28:15"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:28:25"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:28:35"
+    },
+    {
+        "humidity": 23.4,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:28:46"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:28:56"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:29:06"
+    },
+    {
+        "humidity": 23.0,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:29:16"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:29:27"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:29:37"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:29:47"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:29:57"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:30:08"
+    },
+    {
+        "humidity": 23.0,
+        "temperature": 22.4,
+        "timestamp": "2024-12-03 17:30:18"
+    },
+    {
+        "humidity": 23.0,
+        "temperature": 22.4,
+        "timestamp": "2024-12-03 17:30:28"
+    },
+    {
+        "humidity": 22.9,
+        "temperature": 22.3,
+        "timestamp": "2024-12-03 17:30:38"
+    },
+    {
+        "humidity": 22.9,
+        "temperature": 22.4,
+        "timestamp": "2024-12-03 17:30:49"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.4,
+        "timestamp": "2024-12-03 17:30:59"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.4,
+        "timestamp": "2024-12-03 17:31:09"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.4,
+        "timestamp": "2024-12-03 17:31:19"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.4,
+        "timestamp": "2024-12-03 17:31:30"
+    },
+    {
+        "humidity": 23.3,
+        "temperature": 22.4,
+        "timestamp": "2024-12-03 17:31:40"
+    },
+    {
+        "humidity": 23.2,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 17:32:13"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 17:32:23"
+    },
+    {
+        "humidity": 23.1,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 17:32:33"
+    },
+    {
+        "humidity": 23.0,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 17:32:43"
+    },
+    {
+        "humidity": 36.4,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:06:03"
+    },
+    {
+        "humidity": 36.4,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:06:13"
+    },
+    {
+        "humidity": 36.6,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:06:24"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:06:34"
+    },
+    {
+        "humidity": 36.9,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:06:44"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:06:54"
+    },
+    {
+        "humidity": 36.7,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:07:05"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:07:15"
+    },
+    {
+        "humidity": 36.7,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:07:25"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:07:35"
+    },
+    {
+        "humidity": 36.9,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:07:46"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:07:56"
+    },
+    {
+        "humidity": 36.7,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:16:32"
+    },
+    {
+        "humidity": 35.9,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:18:03"
+    },
+    {
+        "humidity": 36.0,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:18:13"
+    },
+    {
+        "humidity": 36.0,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:18:24"
+    },
+    {
+        "humidity": 36.2,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:18:34"
+    },
+    {
+        "humidity": 36.4,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:18:44"
+    },
+    {
+        "humidity": 36.5,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:18:54"
+    },
+    {
+        "humidity": 36.4,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:19:05"
+    },
+    {
+        "humidity": 36.5,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:19:15"
+    },
+    {
+        "humidity": 36.5,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:19:25"
+    },
+    {
+        "humidity": 36.5,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:19:35"
+    },
+    {
+        "humidity": 36.6,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:19:46"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:19:56"
+    },
+    {
+        "humidity": 36.9,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:20:06"
+    },
+    {
+        "humidity": 37.0,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:20:16"
+    },
+    {
+        "humidity": 37.0,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:20:27"
+    },
+    {
+        "humidity": 37.0,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:20:37"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:20:47"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:20:57"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:21:18"
+    },
+    {
+        "humidity": 37.2,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:21:28"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:21:38"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:21:49"
+    },
+    {
+        "humidity": 36.9,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:21:59"
+    },
+    {
+        "humidity": 37.0,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:22:09"
+    },
+    {
+        "humidity": 50.0,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:22:19"
+    },
+    {
+        "humidity": 40.5,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:22:30"
+    },
+    {
+        "humidity": 37.6,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:22:40"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:22:50"
+    },
+    {
+        "humidity": 36.9,
+        "temperature": 23.1,
+        "timestamp": "2024-12-03 18:23:00"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 23.1,
+        "timestamp": "2024-12-03 18:23:11"
+    },
+    {
+        "humidity": 36.7,
+        "temperature": 23.1,
+        "timestamp": "2024-12-03 18:23:21"
+    },
+    {
+        "humidity": 36.7,
+        "temperature": 23.1,
+        "timestamp": "2024-12-03 18:23:31"
+    },
+    {
+        "humidity": 36.7,
+        "temperature": 23.1,
+        "timestamp": "2024-12-03 18:23:41"
+    },
+    {
+        "humidity": 36.5,
+        "temperature": 23.1,
+        "timestamp": "2024-12-03 18:23:52"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 23.1,
+        "timestamp": "2024-12-03 18:24:02"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:24:12"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:24:22"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:24:33"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:24:43"
+    },
+    {
+        "humidity": 36.7,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:24:53"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:25:03"
+    },
+    {
+        "humidity": 36.8,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:25:14"
+    },
+    {
+        "humidity": 36.6,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:25:24"
+    },
+    {
+        "humidity": 36.5,
+        "temperature": 23.0,
+        "timestamp": "2024-12-03 18:25:34"
+    },
+    {
+        "humidity": 36.7,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:25:44"
+    },
+    {
+        "humidity": 36.6,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:25:55"
+    },
+    {
+        "humidity": 36.6,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:26:05"
+    },
+    {
+        "humidity": 36.7,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:26:15"
+    },
+    {
+        "humidity": 36.9,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:26:26"
+    },
+    {
+        "humidity": 36.9,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:26:36"
+    },
+    {
+        "humidity": 36.9,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:26:46"
+    },
+    {
+        "humidity": 37.0,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:26:56"
+    },
+    {
+        "humidity": 36.9,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:27:07"
+    },
+    {
+        "humidity": 37.0,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:27:17"
+    },
+    {
+        "humidity": 37.0,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:27:27"
+    },
+    {
+        "humidity": 37.2,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:27:37"
+    },
+    {
+        "humidity": 37.2,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:27:48"
+    },
+    {
+        "humidity": 37.0,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:28:08"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:28:18"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:28:29"
+    },
+    {
+        "humidity": 37.2,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:28:39"
+    },
+    {
+        "humidity": 37.0,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:28:49"
+    },
+    {
+        "humidity": 37.0,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:28:59"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:29:10"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:29:20"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:29:30"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:29:40"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:29:51"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:30:01"
+    },
+    {
+        "humidity": 37.2,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:30:11"
+    },
+    {
+        "humidity": 37.1,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:30:21"
+    },
+    {
+        "humidity": 37.2,
+        "temperature": 22.9,
+        "timestamp": "2024-12-03 18:30:32"
+    },
+    {
+        "humidity": 37.0,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:30:42"
+    },
+    {
+        "humidity": 36.7,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:30:52"
+    },
+    {
+        "humidity": 36.4,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:31:02"
+    },
+    {
+        "humidity": 36.4,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:31:13"
+    },
+    {
+        "humidity": 36.3,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:31:23"
+    },
+    {
+        "humidity": 36.3,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:31:33"
+    },
+    {
+        "humidity": 36.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:31:43"
+    },
+    {
+        "humidity": 36.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:31:54"
+    },
+    {
+        "humidity": 36.1,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:32:04"
+    },
+    {
+        "humidity": 36.0,
+        "temperature": 22.8,
+        "timestamp": "2024-12-03 18:32:14"
+    },
+    {
+        "humidity": 36.0,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:32:24"
+    },
+    {
+        "humidity": 36.0,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:32:35"
+    },
+    {
+        "humidity": 35.9,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:32:45"
+    },
+    {
+        "humidity": 35.8,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:32:55"
+    },
+    {
+        "humidity": 35.8,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:33:05"
+    },
+    {
+        "humidity": 35.6,
+        "temperature": 22.7,
+        "timestamp": "2024-12-03 18:33:16"
+    },
+    {
+        "humidity": 35.3,
+        "temperature": 22.6,
+        "timestamp": "2024-12-03 18:33:26"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.6,
+        "timestamp": "2024-12-03 18:33:36"
+    },
+    {
+        "humidity": 35.6,
+        "temperature": 22.6,
+        "timestamp": "2024-12-03 18:33:46"
+    },
+    {
+        "humidity": 35.5,
+        "temperature": 22.6,
+        "timestamp": "2024-12-03 18:33:57"
+    },
+    {
+        "humidity": 35.1,
+        "temperature": 22.6,
+        "timestamp": "2024-12-03 18:34:07"
+    },
+    {
+        "humidity": 34.6,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:34:17"
+    },
+    {
+        "humidity": 34.6,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:34:27"
+    },
+    {
+        "humidity": 34.8,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:34:38"
+    },
+    {
+        "humidity": 35.1,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:34:48"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:34:58"
+    },
+    {
+        "humidity": 35.0,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:35:08"
+    },
+    {
+        "humidity": 34.9,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:35:19"
+    },
+    {
+        "humidity": 34.6,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:35:29"
+    },
+    {
+        "humidity": 34.7,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:35:39"
+    },
+    {
+        "humidity": 35.0,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:35:50"
+    },
+    {
+        "humidity": 34.7,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:36:00"
+    },
+    {
+        "humidity": 35.2,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:36:10"
+    },
+    {
+        "humidity": 35.0,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:36:20"
+    },
+    {
+        "humidity": 34.8,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:36:31"
+    },
+    {
+        "humidity": 35.3,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:36:41"
+    },
+    {
+        "humidity": 35.5,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:36:51"
+    },
+    {
+        "humidity": 35.6,
+        "temperature": 22.4,
+        "timestamp": "2024-12-03 18:37:01"
+    },
+    {
+        "humidity": 35.8,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:37:12"
+    },
+    {
+        "humidity": 35.8,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:37:22"
+    },
+    {
+        "humidity": 35.7,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:37:32"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:37:42"
+    },
+    {
+        "humidity": 35.1,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:37:53"
+    },
+    {
+        "humidity": 35.1,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:38:03"
+    },
+    {
+        "humidity": 34.8,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:38:13"
+    },
+    {
+        "humidity": 34.9,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:38:23"
+    },
+    {
+        "humidity": 35.0,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:38:34"
+    },
+    {
+        "humidity": 35.1,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:38:44"
+    },
+    {
+        "humidity": 35.1,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:38:54"
+    },
+    {
+        "humidity": 35.2,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:39:04"
+    },
+    {
+        "humidity": 35.2,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:39:15"
+    },
+    {
+        "humidity": 35.1,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:39:25"
+    },
+    {
+        "humidity": 35.0,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:39:35"
+    },
+    {
+        "humidity": 35.0,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:39:45"
+    },
+    {
+        "humidity": 34.9,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:39:56"
+    },
+    {
+        "humidity": 34.9,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:40:06"
+    },
+    {
+        "humidity": 34.9,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:40:16"
+    },
+    {
+        "humidity": 34.7,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:40:26"
+    },
+    {
+        "humidity": 34.8,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:40:37"
+    },
+    {
+        "humidity": 35.0,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:40:47"
+    },
+    {
+        "humidity": 34.9,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:40:57"
+    },
+    {
+        "humidity": 34.7,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:41:07"
+    },
+    {
+        "humidity": 34.8,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:41:18"
+    },
+    {
+        "humidity": 35.0,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:41:28"
+    },
+    {
+        "humidity": 35.2,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:41:38"
+    },
+    {
+        "humidity": 35.3,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:41:48"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:41:59"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:42:09"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:42:19"
+    },
+    {
+        "humidity": 35.3,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:42:29"
+    },
+    {
+        "humidity": 35.3,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:42:40"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:42:50"
+    },
+    {
+        "humidity": 35.3,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:43:00"
+    },
+    {
+        "humidity": 35.3,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:43:10"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:43:21"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:43:31"
+    },
+    {
+        "humidity": 35.3,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:43:41"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:43:51"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:44:02"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:44:12"
+    },
+    {
+        "humidity": 35.4,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:44:22"
+    },
+    {
+        "humidity": 35.3,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:44:32"
+    },
+    {
+        "humidity": 35.3,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:44:43"
+    },
+    {
+        "humidity": 35.2,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:44:53"
+    },
+    {
+        "humidity": 35.1,
+        "temperature": 22.5,
+        "timestamp": "2024-12-03 18:45:03"
+    }
+]

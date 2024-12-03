@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Historical Data</h1>
+
+<!-- Search Bar -->
+<form action="{{ url_for('historical_func') }}" method="get">
+    <input type="text" name="search" placeholder="Search by date (e.g., 2024-11-28)">
+    <button type="submit">Search</button>
+</form>
+
+<h2>List of Historical Files:</h2>
+<ul>
+    {% for file in files %}
+        <li><a href="{{ url_for('view_file', file_name=file) }}">{{ file }}</a></li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

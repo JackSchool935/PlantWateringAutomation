@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Data for {{ file_name }}</h1>
+
+<canvas id="tempChart" width="400" height="200"></canvas>
+<canvas id="humChart" width="400" height="200"></canvas>
+
+<script>
+    var tempCtx = document.getElementById('tempChart').getContext('2d');
+    var humCtx = document.getElementById('humChart').getContext('2d');
+
+    var tempChart = new Chart(tempCtx, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [{
+                label: 'Temperature (°C)',
+                data: [],
+                borderColor: 'rgba(255, 99, 132, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+
+    var humChart = new Chart(humCtx, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [{
+                label: 'Humidity (%)',
+                data: [],
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+
+    // Populate charts with data from the file
+    var data = {{ data | tojson }};
+    data.forEach(function(point, index) {
+        tempChart.data.labels.push(index + 1);
+        humChart.data.labels.push(index + 1);
+
+        tempChart.data.datasets[0].data.push(point.temperature);
+        humChart.data.datasets[0].data.push(point.humidity);
+    });
+
+    tempChart.update();
+    humChart.update();
+</script>
+{% endblock %}

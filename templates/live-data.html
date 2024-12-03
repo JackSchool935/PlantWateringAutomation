@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Live Temp/Humidity Data</h1>
+<canvas id="tempChart" class="chart" width="400" height="200"></canvas>
+<canvas id="humChart" class="chart" width="400" height="200"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.socket.io/4.5.3/socket.io.min.js"></script>
+
+<script>
+    const socket = io();
+
+    // Temperature Chart
+    const tempCtx = document.getElementById('tempChart').getContext('2d');
+    const tempChart = new Chart(tempCtx, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [{
+                label: 'Temperature (°C)',
+                data: [],
+                borderColor: 'rgba(255, 99, 132, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    title: { display: true, text: 'Time' }
+                },
+                y: {
+                    beginAtZero: true,
+                    title: { display: true, text: 'Temperature (°C)' }
+                }
+            }
+        }
+    });
+
+    // Humidity Chart
+    const humCtx = document.getElementById('humChart').getContext('2d');
+    const humChart = new Chart(humCtx, {
+        type: 'line',
+        data: {
+            labels: [],
+            datasets: [{
+                label: 'Humidity (%)',
+                data: [],
+                borderColor: 'rgba(54, 162, 235, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    title: { display: true, text: 'Time' }
+                },
+                y: {
+                    beginAtZero: true,
+                    title: { display: true, text: 'Humidity (%)' }
+                }
+            }
+        }
+    });
+
+    // Listen for new data from server
+    socket.on('new_data', (data) => {
+        const currentTime = new Date().toLocaleTimeString();
+
+        // Update temperature chart
+        if (data.temperature !== undefined && !isNaN(data.temperature)) {
+            tempChart.data.labels.push(currentTime);
+            tempChart.data.datasets[0].data.push(data.temperature);
+
+            // Keep only the latest 10 points
+            if (tempChart.data.labels.length > 10) {
+                tempChart.data.labels.shift();
+                tempChart.data.datasets[0].data.shift();
+            }
+
+            tempChart.update();
+        }
+
+        // Update humidity chart
+        if (data.humidity !== undefined && !isNaN(data.humidity)) {
+            humChart.data.labels.push(currentTime);
+            humChart.data.datasets[0].data.push(data.humidity);
+
+            // Keep only the latest 10 points
+            if (humChart.data.labels.length > 10) {
+                humChart.data.labels.shift();
+                humChart.data.datasets[0].data.shift();
+            }
+
+            humChart.update();
+        }
+    });
+</script>
+
+{% endblock %}
