@@ -2,13 +2,17 @@ import json
 import os
 import datetime
 import paho.mqtt.client as mqtt
-from flask import Flask, render_template, request, send_from_directory
+from flask import Flask, render_template, request, send_from_directory, redirect, session, flash, url_for
 from flask_socketio import SocketIO
 import threading
 
 # Create the Flask app
 app = Flask(__name__)
 socketio = SocketIO(app, cors_allowed_origins="*")  # Enable cross-origin requests if needed
+app.secret_key = 'your_secret_key'  # Required for session management
+
+USERNAME = 'admin'
+PASSWORD = 'password'
 
 # MQTT Configuration
 MQTT_BROKER = "192.168.227.165"  # Replace with your MQTT broker address
@@ -24,7 +28,27 @@ mqtt_client = mqtt.Client()
 
 @app.route('/')
 def home_func():
-    return render_template('base.html', title="Home")
+    if 'username' in session:
+        return render_template('base.html', title="Dashboard")  # Show original content
+    else:
+        return redirect(url_for('login'))
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']
+        if username == USERNAME and password == PASSWORD:
+            session['username'] = username
+            return redirect(url_for('home_func'))  # Redirect to the main content
+        else:
+            flash('Invalid Credentials. Please try again.')
+    return render_template('login.html')
+
+@app.route('/logout')
+def logout():
+    session.pop('username', None)
+    return redirect(url_for('login'))
 
 # Define the route for live data
 @app.route('/live')
