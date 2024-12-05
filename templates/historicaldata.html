@@ -2,8 +2,14 @@
 
 {% block content %}
 
-
-<h1>Historical Data</h1>
+<style>
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<h1 class="title">Historical Data</h1>
 
 <!-- Search Bar -->
 <form action="{{ url_for('historical_func') }}" method="get">

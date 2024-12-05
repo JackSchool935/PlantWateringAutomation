@@ -1,11 +1,25 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>Live Temperature and Humidity Data</h1>
-<p>This page displays real-time temperature and humidity data collected from sensors. The charts below are continuously updated as new data is received, providing an up-to-date overview of environmental conditions.</p>
+    <style>
+    .chart {
+        margin-bottom: 50px; /* Adjust the value as needed */
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
 
-<canvas id="tempChart" class="chart" width="400" height="400"></canvas>
-<canvas id="humChart" class="chart" width="400" height="400"></canvas>
+
+<h1 class = "title">Live Temperature and Humidity Data</h1>
+<p class="title">This page displays real-time temperature and humidity data collected from sensors. The charts below are continuously updated as new data is received, providing an up-to-date overview of environmental conditions.</p>
+
+
+
+<canvas id="tempChart" class="chart" width="400" height="90"></canvas>
+<canvas id="humChart" class="chart" width="400" height="90"></canvas>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="https://cdn.socket.io/4.5.3/socket.io.min.js"></script>
