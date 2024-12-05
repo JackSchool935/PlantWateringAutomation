@@ -15,16 +15,16 @@ USERNAME = 'admin'
 PASSWORD = 'password'
 
 # MQTT Configuration
-MQTT_BROKER = "192.168.227.165"  # Replace with your MQTT broker address
-MQTT_PORT = 1883
-MQTT_TOPIC = "plant_monitor/data"
+# MQTT_BROKER = "192.168.227.165"  # Replace with your MQTT broker address
+# MQTT_PORT = 1883
+# MQTT_TOPIC = "plant_monitor/data"
 
 # Set the data folder path
 DATA_FOLDER = "data"
 os.makedirs(DATA_FOLDER, exist_ok=True)  # Ensure the data directory exists
 
 # MQTT client setup
-mqtt_client = mqtt.Client()
+# mqtt_client = mqtt.Client()
 
 @app.route('/')
 def home_func():
@@ -104,17 +104,17 @@ def on_message(client, userdata, message):
         print(f"Error in on_message: {e}")
 
 # MQTT setup
-mqtt_client.on_message = on_message
-mqtt_client.connect(MQTT_BROKER, MQTT_PORT, 60)
-mqtt_client.subscribe(MQTT_TOPIC)
-
-# Start the MQTT loop in a separate thread
-def mqtt_loop():
-    mqtt_client.loop_forever()
-
-mqtt_thread = threading.Thread(target=mqtt_loop)
-mqtt_thread.daemon = True
-mqtt_thread.start()
+# mqtt_client.on_message = on_message
+# mqtt_client.connect(MQTT_BROKER, MQTT_PORT, 60)
+# mqtt_client.subscribe(MQTT_TOPIC)
+#
+# # Start the MQTT loop in a separate thread
+# def mqtt_loop():
+#     mqtt_client.loop_forever()
+#
+# mqtt_thread = threading.Thread(target=mqtt_loop)
+# mqtt_thread.daemon = True
+# mqtt_thread.start()
 
 # Run the Flask app with Socket.IO
 if __name__ == '__main__':
