@@ -60,6 +60,9 @@ The system can be extended to control a **solenoid valve or pump**, enabling ful
 
 ## Questions or Issues?
 
+In its current state it does not work as defined. Since the sensorys I had while working on it were non functional
+I needed to change it from using sensors to buttons and other hardcoded values to update and make it do certain actions like add water.
+
 If you have questions about setup or need clarification on any part of the system, please:
 
 1. Check the Flask routes and MQTT handlers in `app.py`
